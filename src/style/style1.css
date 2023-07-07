@@ -11,7 +11,7 @@ p{
     letter-spacing: 0.09rem;
     text-align: left;
 }
-img{
+.img-about>img{
     width: 500px;
     border-radius: 10px;
 }
