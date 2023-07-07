@@ -1,0 +1,17 @@
+.about{
+    display: flex;
+}
+.inf{
+    padding: 20px;
+}
+p{
+    width: 600px;
+    padding: 10px;
+    line-height: 1.5rem;
+    letter-spacing: 0.09rem;
+    text-align: left;
+}
+img{
+    width: 500px;
+    border-radius: 10px;
+}

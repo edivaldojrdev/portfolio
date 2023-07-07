@@ -29,7 +29,6 @@ body{
     width: 100%;
 }
 .sobre{
-
     text-decoration: none;
     color: white;
 }
@@ -37,6 +36,7 @@ body{
     text-decoration: none;
     color: white;
 }
+/*--- Área dos Projetos ---*/
 .project-area{
     display: flex;
     background-color: black;
@@ -49,10 +49,6 @@ body{
     width: 90vw;
     flex-wrap: wrap;    
 }
-.img{
-    width: 300px;
-    height: 300px;
-}
 .project{
     width: 300px;
     height: 300px;
@@ -62,7 +58,7 @@ body{
     border: 1px solid black;
     margin: 20px;
 }
-
+/*--- Menu Lateral---*/
 .menu-lateral{
     position: fixed;
     top: 0;
