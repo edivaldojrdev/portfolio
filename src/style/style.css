@@ -8,22 +8,28 @@ body{
     color: white;
     position: relative;
 }
+/* --- Menu de Navegação ---*/
 .menu-nav{
-    min-height: 80px;
-    min-width: 100vw;    
-    position: absolute;
-    top: 0;
-    right: 120px;
+    height: 10vh;
+    width: 80vw;
     display: flex;
-    justify-content: end;
-    align-items: center;    
+    justify-content: space-between; 
+    align-items: center;     
 }
 .menu-nav ul{
     display: flex;
     list-style-type: none;
     gap: 65px;    
 }
+.logo{
+    width: 40px;
+    margin-left: 30px;
+}
+.eddistech{
+    width: 100%;
+}
 .sobre{
+
     text-decoration: none;
     color: white;
 }
