@@ -1,11 +1,16 @@
 .about{
     display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 0 0 10px;
+    
+    flex-wrap: wrap;
 }
 .inf{
-    padding: 20px;
+    padding: 10px;
 }
 p{
-    width: 600px;
+    max-width: 600px;
     padding: 10px;
     line-height: 1.5rem;
     letter-spacing: 0.09rem;
@@ -14,4 +19,19 @@ p{
 .img-about>img{
     width: 500px;
     border-radius: 10px;
+}
+@media screen and (max-width:582px){
+    .img-about>img{
+        width: 300px;
+    }
+    p{
+        width: 300px;
+    }
+    .menu-lateral{
+        width: 50px;
+    }
+    .project-area{
+        width: 95vw;
+    }
+
 }
