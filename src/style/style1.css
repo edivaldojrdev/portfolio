@@ -20,6 +20,10 @@ p{
     width: 500px;
     border-radius: 10px;
 }
+.main-projetos{
+    text-decoration: none;
+    color: white;
+}
 @media screen and (max-width:582px){
     .img-about>img{
         width: 300px;

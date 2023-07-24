@@ -50,13 +50,21 @@ body{
     flex-wrap: wrap;    
 }
 .project{
-    width: 300px;
+    width: 350px;
     height: 300px;
     background-color: white;
     justify-content: center;
     align-items: center;    
     border: 1px solid black;
-    margin: 20px;
+    margin: 40px;
+}
+#calc{
+    width: 100%;
+    height: 100%;
+}
+#tlou{
+    width: 100%;
+    height: 100%;
 }
 /*--- Menu Lateral---*/
 .menu-lateral{
