@@ -66,6 +66,10 @@ body{
     width: 100%;
     height: 100%;
 }
+#productcard{
+    width: 100%;
+    height: 100%;
+}
 /*--- Menu Lateral---*/
 .menu-lateral{
     position: fixed;
